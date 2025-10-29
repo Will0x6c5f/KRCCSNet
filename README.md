@@ -6,7 +6,7 @@ You can change the distribute training setting in acc_config.yaml
 Testing can be done with single GPU (even CPU, but need slightly modify the code)
 
 Please prepare dataset in the following structure: 
-
+```
 code
 ├── BSDS500
 │   ├── set14
@@ -25,7 +25,7 @@ code
 │   │   ├── val
 │   │   │   ├── xxx.png
 │   │   │   ...
-
+```
 
 Our model is in model/krccsnet.py
 
