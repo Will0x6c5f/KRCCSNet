@@ -47,3 +47,7 @@ python test.py --model krccsnet --sensing-rate 0.25
 #test krccsnet_train(i.e. LKSN+ARM )
 python test.py --model krccsnet_train --sensing-rate 0.25 
 
+visualize:
+python visualize.py --sensing-rate=0.25
+
+pretrained weight at: saved_model

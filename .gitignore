@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-saved_model
+# saved_model
 # C extensions
 *.so
 
@@ -113,5 +113,5 @@ data
 *.log.json
 archive/
 
-BSDS500/
+# BSDS500/
 log/
